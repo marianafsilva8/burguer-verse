@@ -83,3 +83,19 @@ body {
   background-color: var(--color-primary-hover);
 }
 
+/* Inserir código dos BTNs Outline */
+
+/* HERO SECTION - Apresentação da Marca */
+.hero{
+  padding: 8rem 0;
+  min-height: calc(100vh - 7rem);
+  display: flex;align-items: center;
+}
+
+.hero__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
